@@ -20,3 +20,9 @@ LibraryMVCApp
 1. Go to project packages/tools folder
 2. Run following command
 	- migrate.exe --conn "DATA SOURCE=MOSXE.world;user id=LIBRARY_DATA;password=password" /provider oracle --assembly "C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\LibraryAppEmpty.dll"
+
+##Required Nuget packages
+1. Knockout
+2. JQuery
+3. FluentMigrator
+4. EntityFramework
