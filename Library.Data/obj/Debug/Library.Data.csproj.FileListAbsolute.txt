@@ -1,0 +1,9 @@
+C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\bin\Debug\Library.Data.dll.config
+C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\bin\Debug\Library.Data.dll
+C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\bin\Debug\Library.Data.pdb
+C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\bin\Debug\EntityFramework.dll
+C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\bin\Debug\EntityFramework.xml
+C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\obj\Debug\Library.Data.dll
+C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\obj\Debug\Library.Data.pdb
