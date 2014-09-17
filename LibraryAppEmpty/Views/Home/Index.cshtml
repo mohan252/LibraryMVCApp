@@ -1,0 +1,54 @@
+﻿@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home</title>
+    </head>
+    <body>
+        <div>
+            <label>Title</label>
+            <input type="text" id ="bookTitle"/>
+            <input type="button" id ="Save" onclick="Save()" value="Save"/>
+        </div>
+        <div id="BookContainer">
+            <label>KO Title</label>
+            <input type="text" id ="koBookTitle" data-bind="value: Title"/>
+            <input type="button" id ="koSave" value="Save" data-bind="click: Save"/>
+        </div>
+    </body>
+</html>
+<script src="~/Scripts/knockout-2.0.0.js"></script>
+<script src="~/Scripts/jquery-2.1.1.js"></script>
+<script type="text/javascript">
+    document.getElementById('bookTitle').value = 'Enter Title';
+    function Save() {
+        var text = document.getElementById('bookTitle').value;
+        alert(text);
+    };
+
+    window.bookViewModel = {
+        Title: ko.observable("Some Text"),
+        Save: function() {
+            //get the value from title property
+            var titleValue = window.bookViewModel.Title();
+            //send it server            
+            // ajax => url, data, http command, success/optional, error/optional
+            var url = "/Home/Save";
+            var options = {
+                data: { Title: titleValue },
+                type: 'POST',
+                success: function(data) {
+                    
+                }
+            };
+            $.ajax(url, options);
+        }        
+    };
+    ko.applyBindings(window.bookViewModel, $('#BookContainer')[0]);
+</script>
