@@ -2,13 +2,13 @@ LibraryMVCApp
 =============
 
 ##Scope of the project
-1) create a home page where I can enter book title
-2) save book title
-3) create search page
-4) search the book title you saved
-5) display the results
-6) select one of the result
-7) and modify and save it
+# create a home page where I can enter book title
+# save book title
+# create search page
+# search the book title you saved
+# display the results
+# select one of the result
+# and modify and save it
 
 ##Create Database Steps
 1) Get Oracle XE db
