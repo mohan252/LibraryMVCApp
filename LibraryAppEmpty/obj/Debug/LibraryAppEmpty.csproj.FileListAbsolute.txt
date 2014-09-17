@@ -24,3 +24,6 @@ C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\System.Web.WebPages.Deploym
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\System.Web.WebPages.Razor.xml
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\obj\Debug\LibraryAppEmpty.dll
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\obj\Debug\LibraryAppEmpty.pdb
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\FluentMigrator.dll
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\FluentMigrator.pdb
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\FluentMigrator.xml

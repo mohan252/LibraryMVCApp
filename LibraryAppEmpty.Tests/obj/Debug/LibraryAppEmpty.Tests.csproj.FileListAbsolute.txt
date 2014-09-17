@@ -28,3 +28,6 @@ C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\System.Web.WebP
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\obj\Debug\LibraryAppEmpty.Tests.csprojResolveAssemblyReference.cache
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\obj\Debug\LibraryAppEmpty.Tests.dll
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\obj\Debug\LibraryAppEmpty.Tests.pdb
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\FluentMigrator.dll
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\FluentMigrator.pdb
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\FluentMigrator.xml
