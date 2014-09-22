@@ -1,6 +1,6 @@
 ﻿using Library.Domain;
 using NUnit.Framework;
-using Library.Service;
+using Library.Business;
 
 namespace LibraryAppEmpty.Tests
 {
@@ -10,7 +10,7 @@ namespace LibraryAppEmpty.Tests
          [Test]
          public void CreateBook_Maps_All_Properties_ToEntity_Object()
          {
-             var library = new Library.Service.Library();
+             var library = new LibraryService();
              BookSubmitModel bookSubmitModel = new BookSubmitModel() { Title = "book title" };
              
              library.CreateBook(bookSubmitModel);

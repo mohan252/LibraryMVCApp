@@ -119,9 +119,9 @@
       <Project>{D4640C30-E37D-49AC-BF32-0C252FB10063}</Project>
       <Name>Library.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Library.Service\Library.Service.csproj">
+    <ProjectReference Include="..\Library.Service\Library.Business.csproj">
       <Project>{25739BAF-19B9-486E-9F83-936CE937D03E}</Project>
-      <Name>Library.Service</Name>
+      <Name>Library.Business</Name>
     </ProjectReference>
     <ProjectReference Include="..\LibraryAppEmpty\LibraryAppEmpty.csproj">
       <Project>{3A8CD364-807F-411E-9094-D916574657B8}</Project>

@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Library.Domain;
 
-namespace Library.Service
+namespace Library.Business
 {
-    public class Library
+    public class LibraryService
     {
         public object CreateBook(BookSubmitModel bookSubmitModel)
         {

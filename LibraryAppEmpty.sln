@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryAppEmpty.Tests", "Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Data", "Library.Data\Library.Data.csproj", "{AD6144C9-0BF4-4931-A078-A8C70BAD2E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Service", "Library.Service\Library.Service.csproj", "{25739BAF-19B9-486E-9F83-936CE937D03E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Business", "Library.Service\Library.Business.csproj", "{25739BAF-19B9-486E-9F83-936CE937D03E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5D73CA8C-2845-4E69-A1F6-E3F8EFF2DD5F}"
 	ProjectSection(SolutionItems) = preProject
