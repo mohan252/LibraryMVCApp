@@ -27,3 +27,8 @@ C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\obj\Debug\LibraryAppEmpty.pdb
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\FluentMigrator.dll
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\FluentMigrator.pdb
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\FluentMigrator.xml
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\obj\Debug\LibraryAppEmpty.csprojResolveAssemblyReference.cache
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\EntityFramework.dll
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\Library.Data.dll
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\Library.Data.pdb
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty\bin\EntityFramework.xml

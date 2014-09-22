@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Library.Data;
 
 namespace LibraryAppEmpty.Controllers
 {
@@ -18,7 +19,12 @@ namespace LibraryAppEmpty.Controllers
 
         public JsonResult Save(TitleSubmitModel model)
         {
-            return null;
+            var book = new Book();
+            book.Title = model.Title;
+            var libraryContext = new LibraryData();
+            libraryContext.Books.Add(book);
+            libraryContext.SaveChanges();  
+            return new JsonResult(){Data = ""};
         }
 
     }

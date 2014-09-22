@@ -7,3 +7,4 @@ C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\bin\Debug\EntityFramework.xml
 C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\obj\Debug\Library.Data.dll
 C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\obj\Debug\Library.Data.pdb
+C:\Work\WorkOuts\LibraryAppEmpty\Library.Data\obj\Debug\Library.Data.csprojResolveAssemblyReference.cache

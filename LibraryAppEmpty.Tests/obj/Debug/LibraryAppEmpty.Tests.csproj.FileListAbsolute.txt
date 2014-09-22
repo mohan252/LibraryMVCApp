@@ -31,3 +31,7 @@ C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\obj\Debug\LibraryAppEmpty
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\FluentMigrator.dll
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\FluentMigrator.pdb
 C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\FluentMigrator.xml
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\Library.Data.dll
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\EntityFramework.dll
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\Library.Data.pdb
+C:\Work\WorkOuts\LibraryAppEmpty\LibraryAppEmpty.Tests\bin\Debug\EntityFramework.xml
