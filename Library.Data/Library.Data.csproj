@@ -49,24 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs">
-      <DependentUpon>Library.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Library.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Library.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Library.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Library.tt</DependentUpon>
-    </Compile>
     <Compile Include="Library.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Library.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\ILibraryDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,27 +64,15 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Library.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Library.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Library.edmx</DependentUpon>
-      <LastGenOutput>Library.Context.cs</LastGenOutput>
-    </None>
     <None Include="Library.edmx.diagram">
       <DependentUpon>Library.edmx</DependentUpon>
-    </None>
-    <None Include="Library.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Library.edmx</DependentUpon>
-      <LastGenOutput>Library.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

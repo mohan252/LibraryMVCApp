@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Library.Data;
+using Library.Data.Models;
 
 //using Library.Data;
 
@@ -23,7 +24,7 @@ namespace LibraryAppEmpty.Controllers
         {
             var book = new Book();
             book.Title = model.Title;
-            var libraryContext = new LibraryData();
+            var libraryContext = new LibraryDbContext();
             libraryContext.Books.Add(book);
             libraryContext.SaveChanges();  
             return new JsonResult(){Data = ""};
