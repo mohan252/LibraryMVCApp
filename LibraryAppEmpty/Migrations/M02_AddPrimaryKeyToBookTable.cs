@@ -1,6 +1,6 @@
 ﻿using FluentMigrator;
 
-namespace LibraryAppEmpty.Migrations
+namespace LibraryApp.Migrations
 {
     [Migration(2)]
     public class M02_AddPrimaryKeyToBookTable : Migration

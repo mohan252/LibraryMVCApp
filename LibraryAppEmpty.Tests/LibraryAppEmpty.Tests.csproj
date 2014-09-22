@@ -131,9 +131,9 @@
       <Project>{25739BAF-19B9-486E-9F83-936CE937D03E}</Project>
       <Name>Library.Business</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LibraryAppEmpty\LibraryAppEmpty.csproj">
+    <ProjectReference Include="..\LibraryAppEmpty\LibraryApp.csproj">
       <Project>{3A8CD364-807F-411E-9094-D916574657B8}</Project>
-      <Name>LibraryAppEmpty</Name>
+      <Name>LibraryApp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

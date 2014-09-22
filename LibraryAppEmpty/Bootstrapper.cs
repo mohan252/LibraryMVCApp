@@ -7,7 +7,7 @@ using Library.Data.Models;
 using Microsoft.Practices.Unity;
 using Unity.Mvc4;
 
-namespace LibraryAppEmpty
+namespace LibraryApp
 {
   public static class Bootstrapper
   {

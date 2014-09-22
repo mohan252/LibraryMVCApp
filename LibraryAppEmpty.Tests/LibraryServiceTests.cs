@@ -5,7 +5,7 @@ using NSubstitute;
 using NUnit.Framework;
 using Library.Business;
 
-namespace LibraryAppEmpty.Tests
+namespace LibraryApp.Tests
 {
     [TestFixture]
     public class LibraryServiceTests

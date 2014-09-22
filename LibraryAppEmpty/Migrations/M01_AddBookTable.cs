@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using FluentMigrator;
 
-namespace LibraryAppEmpty.Migrations
+namespace LibraryApp.Migrations
 {
     [Migration(1)]
     public class M01_AddBookTable : Migration

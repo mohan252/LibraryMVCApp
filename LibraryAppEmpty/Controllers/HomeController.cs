@@ -2,7 +2,7 @@
 using Library.Domain;
 using System.Web.Mvc;
 
-namespace LibraryAppEmpty.Controllers
+namespace LibraryApp.Controllers
 {
     public class HomeController : Controller
     {
