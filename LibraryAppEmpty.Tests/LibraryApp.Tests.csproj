@@ -109,7 +109,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LibraryServiceTests.cs" />
+    <Compile Include="Business\LibraryServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -135,6 +135,9 @@
       <Project>{3A8CD364-807F-411E-9094-D916574657B8}</Project>
       <Name>LibraryApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

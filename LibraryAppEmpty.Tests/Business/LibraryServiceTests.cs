@@ -1,11 +1,11 @@
-﻿using System.Data.Entity;
+using System.Data.Entity;
+using Library.Business;
 using Library.Data.Models;
 using Library.Domain;
 using NSubstitute;
 using NUnit.Framework;
-using Library.Business;
 
-namespace LibraryApp.Tests
+namespace LibraryApp.Tests.Business
 {
     [TestFixture]
     public class LibraryServiceTests

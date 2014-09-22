@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp", "LibraryAppEmpty\LibraryApp.csproj", "{3A8CD364-807F-411E-9094-D916574657B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryAppEmpty.Tests", "LibraryAppEmpty.Tests\LibraryAppEmpty.Tests.csproj", "{5C8DAE83-A702-47E3-A601-27587BD60278}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.Tests", "LibraryAppEmpty.Tests\LibraryApp.Tests.csproj", "{5C8DAE83-A702-47E3-A601-27587BD60278}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Data", "Library.Data\Library.Data.csproj", "{AD6144C9-0BF4-4931-A078-A8C70BAD2E55}"
 EndProject
