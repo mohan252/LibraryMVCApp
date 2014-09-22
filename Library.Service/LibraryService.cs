@@ -8,7 +8,7 @@ using Library.Domain;
 
 namespace Library.Business
 {
-    public class LibraryService
+    public class LibraryService : ILibraryService
     {
         private readonly ILibraryDbContext _libraryDbContext;
 

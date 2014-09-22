@@ -14,6 +14,7 @@ namespace LibraryAppEmpty
     {
         protected void Application_Start()
         {
+            Bootstrapper.Initialise();
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);

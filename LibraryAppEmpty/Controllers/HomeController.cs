@@ -1,39 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Library.Business;
+using Library.Domain;
 using System.Web.Mvc;
-using Library.Data;
-using Library.Data.Models;
-
-//using Library.Data;
 
 namespace LibraryAppEmpty.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
+        private readonly ILibraryService _libraryService;
+
+        public HomeController(ILibraryService libraryService)
+        {
+            _libraryService = libraryService;
+        }
 
         public ActionResult Index()
         {
             return View();
         }
 
-        public JsonResult Save(TitleSubmitModel model)
+        public JsonResult Save(BookSubmitModel model)
         {
-            var book = new Book();
-            book.Title = model.Title;
-            var libraryContext = new LibraryDbContext();
-            libraryContext.Books.Add(book);
-            libraryContext.SaveChanges();  
+            _libraryService.CreateBook(model);
             return new JsonResult(){Data = ""};
         }
 
-    }
-
-    public class TitleSubmitModel
-    {
-        public string Title { get; set; }
-    }
+    }    
 }
